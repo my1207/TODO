@@ -14,6 +14,8 @@
 		741F76A7210C030D0058BE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741F76A5210C030D0058BE77 /* LaunchScreen.storyboard */; };
 		741F76B2210C030D0058BE77 /* TODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F76B1210C030D0058BE77 /* TODOTests.swift */; };
 		741F76BD210C030D0058BE77 /* TODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F76BC210C030D0058BE77 /* TODOUITests.swift */; };
+		741F76CB210C05B10058BE77 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F76CA210C05B10058BE77 /* AddController.swift */; };
+		741F76CD210C40B90058BE77 /* TanukiMagic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 741F76CC210C40B90058BE77 /* TanukiMagic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		741F76B8210C030D0058BE77 /* TODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		741F76BC210C030D0058BE77 /* TODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOUITests.swift; sourceTree = "<group>"; };
 		741F76BE210C030D0058BE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741F76CA210C05B10058BE77 /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		741F76CC210C40B90058BE77 /* TanukiMagic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TanukiMagic.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		741F7690210C030A0058BE77 = {
 			isa = PBXGroup;
 			children = (
+				741F76CC210C40B90058BE77 /* TanukiMagic.ttf */,
 				741F769B210C030B0058BE77 /* TODO */,
 				741F76B0210C030D0058BE77 /* TODOTests */,
 				741F76BB210C030D0058BE77 /* TODOUITests */,
@@ -100,6 +105,7 @@
 				741F769C210C030B0058BE77 /* AppDelegate.swift */,
 				741F769E210C030B0058BE77 /* ViewController.swift */,
 				741F76A0210C030B0058BE77 /* Main.storyboard */,
+				741F76CA210C05B10058BE77 /* AddController.swift */,
 				741F76A3210C030D0058BE77 /* Assets.xcassets */,
 				741F76A5210C030D0058BE77 /* LaunchScreen.storyboard */,
 				741F76A8210C030D0058BE77 /* Info.plist */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741F76CD210C40B90058BE77 /* TanukiMagic.ttf in Resources */,
 				741F76A7210C030D0058BE77 /* LaunchScreen.storyboard in Resources */,
 				741F76A4210C030D0058BE77 /* Assets.xcassets in Resources */,
 				741F76A2210C030B0058BE77 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741F76CB210C05B10058BE77 /* AddController.swift in Sources */,
 				741F769F210C030B0058BE77 /* ViewController.swift in Sources */,
 				741F769D210C030B0058BE77 /* AppDelegate.swift in Sources */,
 			);
